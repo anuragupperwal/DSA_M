@@ -14,6 +14,7 @@ public:
                 hours+=(piles[i]/mid);
                 hours += (piles[i]%mid > 0)? 1:0;
             }
+            
             if(hours <= h) right = mid;
             else left = mid+1;
         }
