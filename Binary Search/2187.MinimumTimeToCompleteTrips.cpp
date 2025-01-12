@@ -21,7 +21,6 @@ public:
         return right;;
     }
 
-
     // //bruteforce approach - gives TLE
     // long long minimumTime(vector<int>& time, int totalTrips) {
     //     long long t=0, n = time.size(), sum=0;
